@@ -1,0 +1,105 @@
+
+
+New POST received 20091019
+=== HEADER ===
+array(36) {
+  ["PATH"]=>
+  string(153) "/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/opt/bin:/var/hivedb/:/usr/services/vux/apache/bin:/usr/services/vux/mysql/bin"
+  ["DOCUMENT_ROOT"]=>
+  string(45) "/data/18/1/38/144/1690470/user/1823777/htdocs"
+  ["FCGI_ROLE"]=>
+  string(9) "RESPONDER"
+  ["SCRIPT_URL"]=>
+  string(24) "/demou/delegatedAuth.php"
+  ["SCRIPT_URI"]=>
+  string(45) "http://purple-egg.com/demou/delegatedAuth.php"
+  ["DOMAIN_NAME"]=>
+  string(14) "purple-egg.com"
+  ["DOMAIN_PATH"]=>
+  string(45) "/data/18/1/38/144/1690470/user/1823777/htdocs"
+  ["PKEY"]=>
+  string(15) "1690470.1823777"
+  ["RAILS_URI"]=>
+  string(5) "INVAL"
+  ["DOMAIN_USER"]=>
+  string(15) "1690470.1823777"
+  ["HTTP_HOST"]=>
+  string(14) "purple-egg.com"
+  ["CONTENT_LENGTH"]=>
+  string(3) "997"
+  ["CONTENT_TYPE"]=>
+  string(33) "application/x-www-form-urlencoded"
+  ["HTTP_X_FORWARDED_FOR"]=>
+  string(14) "205.188.251.22"
+  ["HTTP_X_FORWARDED_HOST"]=>
+  string(25) "secure.netsolhost.com:443"
+  ["HTTP_X_FORWARDED_SERVER"]=>
+  string(3) "ssl"
+  ["HTTP_CONNECTION"]=>
+  string(5) "close"
+  ["SERVER_SIGNATURE"]=>
+  string(0) ""
+  ["SERVER_SOFTWARE"]=>
+  string(40) "Apache/2.2.8 (Unix) FrontPage/5.0.2.2635"
+  ["SERVER_NAME"]=>
+  string(14) "purple-egg.com"
+  ["SERVER_ADDR"]=>
+  string(12) "10.49.38.126"
+  ["SERVER_PORT"]=>
+  string(2) "80"
+  ["REMOTE_ADDR"]=>
+  string(14) "205.178.146.20"
+  ["SERVER_ADMIN"]=>
+  string(18) "[no address given]"
+  ["SCRIPT_FILENAME"]=>
+  string(69) "/data/18/1/38/144/1690470/user/1823777/htdocs/demou/delegatedAuth.php"
+  ["REMOTE_PORT"]=>
+  string(5) "15928"
+  ["GATEWAY_INTERFACE"]=>
+  string(7) "CGI/1.1"
+  ["SERVER_PROTOCOL"]=>
+  string(8) "HTTP/1.1"
+  ["REQUEST_METHOD"]=>
+  string(4) "POST"
+  ["QUERY_STRING"]=>
+  string(0) ""
+  ["REQUEST_URI"]=>
+  string(24) "/demou/delegatedAuth.php"
+  ["SCRIPT_NAME"]=>
+  string(24) "/demou/delegatedAuth.php"
+  ["PHP_SELF"]=>
+  string(24) "/demou/delegatedAuth.php"
+  ["REQUEST_TIME"]=>
+  int(1255971748)
+  ["argv"]=>
+  array(0) {
+  }
+  ["argc"]=>
+  int(0)
+}
+AUTH: 
+
+[2009-10-19 01:02:28] 
+=== POST ===
+
+[2009-10-19 01:02:28] AOL SAML REQUEST: PHNhbWxwOkF1dGhuUmVxdWVzdCBWZXJzaW9uPSIyLjAiIElEPSJRNEFEQzlCQTMwMDAwNjJGOTAyM0EyQzg1IiBJc3N1ZUluc3RhbnQ9IjIwMDktMTAtMTlUMTM6MDI6MjdaIiBEZXN0aW5hdGlvbj0iaHR0cHM6Ly9zZWN1cmUubmV0c29saG9zdC5jb20vcHVycGxlLWVnZy5jb20vZGVtb3UvZGVsZWdhdGVkQXV0aC5waHAiIElzUGFzc2l2ZT0idHJ1ZSIKICB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIgogIHhtbG5zOnNhbWw9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDphc3NlcnRpb24iPgogIDxzYW1sOklzc3Vlcj5hYWcub3NjYXIuYW9sLmNvbTwvc2FtbDpJc3N1ZXI CiAgPHNhbWw6U3ViamVjdD4KICAgIDxzYW1sOk5hbWVJRD5mcmVkQGZlZGFpbS5jb208L3NhbWw6TmFtZUlEPgogIDwvc2FtbDpTdWJqZWN0PgogIDxzYW1sOk5hbWVJRFBvbGljeSBGb3JtYXQ9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpuYW1laWQtZm9ybWF0OnBlcnNpc3RlbnQiIEFsbG93Q3JlYXRlPSJ0cnVlIi8 Cjwvc2FtbHA6QXV0aG5SZXF1ZXN0Pg==
+
+[2009-10-19 01:02:28] SIGNATURE ALGORITHM: http://www.w3.org/2000/09/xmldsig#rsa-sha1
+
+[2009-10-19 01:02:28] SIGNATURE: YaNf9RyrHpPS6iKGsa1bBEwsLZDy4PhVOQMn6eHzNrljQCkDHjRZkrN819UiPYJ/OEKJNNZ8zH2KQPginqThftbc/d28HIGgBKYn2aSwPTQ6l7VtMmAMd9cNfojO6LD0199lzaJlfypY9cvDIMpOJ0UDVivGK9r8oYVJ/VM6jY4=
+
+[2009-10-19 01:02:28] 
+=== DECODING ===
+
+[2009-10-19 01:02:28] 
+<samlp:AuthnRequest Version="2.0" ID="Q4ADC9BA3000062F9023A2C85" IssueInstant="2009-10-19T13:02:27Z" Destination="https://secure.netsolhost.com/purple-egg.com/demou/delegatedAuth.php" IsPassive="true"
+  xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+  <saml:Issuer>aag.oscar.aol.com</saml:Issuer>
+  <saml:Subject>
+    <saml:NameID>fred@fedaim.com</saml:NameID>
+  </saml:Subject>
+  <saml:NameIDPolicy Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent" AllowCreate="true"/>
+</samlp:AuthnRequest>
+
+
